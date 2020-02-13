@@ -64,3 +64,15 @@ This will create a directory called `gpio17` with the required files in it
 # echo 0 > /sys/class/gpio/gpio17/value
 ```
 
+* Finally you can write a shell script to automate the processes and for several GPIO pins
+
+
+## 2. In android OS, involves rooting
+
+* Firstly obtain root access by following the steps mentioned [here](https://github.com/MonkHelios/Root-access-on-Tinker-OS-android)
+
+* Then open termux on android and cd into `/sys/class/gpio`
+
+* From there the steps are the same as before starting from altering the `export` file
+
+* Finally you can write a shell script to automate the process
