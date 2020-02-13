@@ -48,7 +48,7 @@ or go into "about phone" and into "status", here you will find the IP addr also.
 # echo 17 > /sys/class/gpio/export
 ```
 This will create a directory called `gpio17` with the required files in it
-`Similarly you can add all the GPIO pins you want to use, for example I am using gpio17(CPU) or gpio7(wPi) or pin number 7`
+> Similarly you can add all the GPIO pins you want to use, for example I am using gpio17(CPU) or gpio7(wPi) or pin number 7
 
 * Then we need to assign its direction which is `out`
 ```
